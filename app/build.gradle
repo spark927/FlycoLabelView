@@ -4,10 +4,6 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
 
-    lintOptions {
-        abortOnError false
-    }
-
     defaultConfig {
         applicationId "com.flyco.labelviewsample"
         minSdkVersion 8
