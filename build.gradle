@@ -29,11 +29,7 @@ allprojects {
     }
 }
 
-tasks.withType(Compile) {
-    options.encoding = "UTF-8"
-}
-apply plugin: 'android'
-android {}
+
 
 task clean(type: Delete) {
     delete rootProject.buildDir
