@@ -20,6 +20,11 @@ android {
    
 }
 
+tasks.withType(Compile) {
+    options.encoding = "UTF-8"
+}
+apply plugin: 'android'
+android {}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
